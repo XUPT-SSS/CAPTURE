@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7c3fd0c7c03b33204b58aac909aef42c349e828
 #  CAPTURE:Towards Cost-Efficient Vulnerability Detection with Cross-Modal Adversarial Reprogramming
 
 
@@ -9,9 +13,15 @@ In the realm of cybersecurity, software vulnerabilities present a persistent thr
 
 ## Design of CAPTURE
 
+<<<<<<< HEAD
 
 
 ![Design](C:\Users\sangui\Desktop\Design.png)
+=======
+![Design](https://github.com/user-attachments/assets/195f8d57-7af5-452d-95d5-296763c60fb4)
+
+
+>>>>>>> c7c3fd0c7c03b33204b58aac909aef42c349e828
 
 **Capture proceeds with the following main steps:**
 
@@ -41,8 +51,11 @@ torchvision             0.14.1
 timm                      0.3.0
 tqdm                      4.65.0	
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c7c3fd0c7c03b33204b58aac909aef42c349e828
 ## Source Code
 
 The text/sequence dataset configurations are defined in `data_utils.py`. We can  use our custom datasets (defined as csv files) with the same API. To reprogram an image model for a text classification task run:
