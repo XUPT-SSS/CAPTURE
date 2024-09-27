@@ -34,18 +34,12 @@ Devign(https://dl.acm.org/doi/10.5555/3454287.3455202) is a dataset comprising f
 ## The required environment for this project
 
 torch                      1.13.1
-
 transformers        4.27.4            
 tree-sitter              0.20.1
-
 torch                      1.13.1               
 torchvision             0.14.1
-
 timm                      0.3.0
-
 tqdm                      4.65.0	
-
-
 
 ## Source Code
 
