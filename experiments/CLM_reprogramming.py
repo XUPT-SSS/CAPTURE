@@ -376,8 +376,9 @@ def main():
     # print()
     # print(class_mapping)
     for epoch in range(train_hps['num_epochs']):
-        #image_net_labels = generate_label_mapping_by_frequency(vision_model, reprogrammer, train_loader,args.m_per_class)
-        #class_mapping = create_label_mapping(n_classes, args.m_per_class, image_net_labels)
+        if epoch % 1 == 0:
+            image_net_labels = generate_label_mapping_by_frequency(vision_model, reprogrammer, train_loader,args.m_per_class)
+            class_mapping = create_label_mapping(n_classes, args.m_per_class, image_net_labels)
         print()
         print(class_mapping)
         # train

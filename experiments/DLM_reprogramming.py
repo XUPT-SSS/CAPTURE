@@ -370,11 +370,10 @@ def main():
     #     params = list(reprogrammer.parameters()) + list(multi_label_remapper.parameters())
     #     optimizer = optim.Adam(params, lr=train_hps['lr'])
     for epoch in range(train_hps['num_epochs']):
-        if epoch % 1 == 0:
-            image_net_labels = generate_label_mapping_by_frequency(vision_model, reprogrammer, train_loader,args.m_per_class)
-            class_mapping = create_label_mapping(n_classes, args.m_per_class, image_net_labels)
-            print()
-            print(class_mapping)
+        image_net_labels = generate_label_mapping_by_frequency(vision_model, reprogrammer, train_loader,args.m_per_class)
+        class_mapping = create_label_mapping(n_classes, args.m_per_class, image_net_labels)
+        print()
+        print(class_mapping)
         # train
         reprogrammer.train()
         total_num = 0
