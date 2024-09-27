@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> c7c3fd0c7c03b33204b58aac909aef42c349e828
 #  CAPTURE:Towards Cost-Efficient Vulnerability Detection with Cross-Modal Adversarial Reprogramming
 
 
@@ -13,15 +9,9 @@ In the realm of cybersecurity, software vulnerabilities present a persistent thr
 
 ## Design of CAPTURE
 
-<<<<<<< HEAD
 
-
-![Design](C:\Users\sangui\Desktop\Design.png)
-=======
 ![Design](https://github.com/user-attachments/assets/195f8d57-7af5-452d-95d5-296763c60fb4)
 
-
->>>>>>> c7c3fd0c7c03b33204b58aac909aef42c349e828
 
 **Capture proceeds with the following main steps:**
 
@@ -51,16 +41,11 @@ torchvision             0.14.1
 timm                      0.3.0
 tqdm                      4.65.0	
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> c7c3fd0c7c03b33204b58aac909aef42c349e828
 ## Source Code
 
 The text/sequence dataset configurations are defined in `data_utils.py`. We can  use our custom datasets (defined as csv files) with the same API. To reprogram an image model for a text classification task run:
 
-python FLM_reprogramming.py[ILM_reprogramming.py、RLM_reprogramming.py]  --text_dataset TEXTDATSET --logdir <PATH WHERE /LOG WILL BE SAVED> --cache_dir --reg_alpha 1e-3 --img_patch_size 16 --vision_model vit_base_patch16_384 ;
+python RLM_reprogramming.py[CLM_reprogramming.py、DLM_reprogramming.py]  --text_dataset TEXTDATSET --logdir <PATH WHERE /LOG WILL BE SAVED> --cache_dir --reg_alpha 1e-3 --img_patch_size 16 --vision_model vit_base_patch16_384 ;
 
 - TEXTDATSET is one of the dataset keys defined in data_utils.py
 - img_patch_size: Image patch size to embed each sequence token into
