@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #  CAPTURE:Towards Cost-Efficient Vulnerability Detection with Cross-Modal Adversarial Reprogramming
 
 
@@ -9,9 +9,9 @@ In the realm of cybersecurity, software vulnerabilities present a persistent thr
 
 ## Design of CAPTURE
 
+![Design](https://github.com/user-attachments/assets/195f8d57-7af5-452d-95d5-296763c60fb4)
 
 
-![Design](C:\Users\sangui\Desktop\Design.png)
 
 **Capture proceeds with the following main steps:**
 
